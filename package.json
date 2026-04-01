@@ -1,0 +1,31 @@
+{
+  "name": "costco-receipts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "import-itemized": "tsx src/import-itemized.ts",
+    "test": "node --import tsx --test src/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickclery/costco-receipts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickclery/costco-receipts/issues"
+  },
+  "homepage": "https://github.com/patrickclery/costco-receipts#readme",
+  "dependencies": {
+    "@actual-app/api": "^26.3.0",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
