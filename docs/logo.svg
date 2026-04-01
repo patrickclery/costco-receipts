@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <defs>
+    <linearGradient id="stripe" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#005DAA"/>
+      <stop offset="100%" stop-color="#003f73"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="120" rx="8" fill="#0d1117"/>
+  <!-- Red stripe accent -->
+  <rect x="0" y="0" width="600" height="4" rx="0" fill="#E31837"/>
+  <!-- COSTCO text -->
+  <text x="300" y="62" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="56" fill="#E31837" letter-spacing="8">COSTCO</text>
+  <!-- Blue divider -->
+  <rect x="120" y="74" width="360" height="3" rx="1.5" fill="#005DAA"/>
+  <!-- RECEIPTS text -->
+  <text x="300" y="104" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="30" fill="#005DAA" letter-spacing="12">RECEIPTS</text>
+</svg>
