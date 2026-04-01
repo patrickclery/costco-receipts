@@ -1,24 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 130">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="130" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#0a0e14"/>
-    </linearGradient>
-  </defs>
   <!-- Background -->
-  <rect width="640" height="130" rx="10" fill="url(#bg)"/>
+  <rect width="640" height="130" rx="10" fill="#0d1117"/>
   <!-- Top red bar -->
   <rect x="0" y="0" width="640" height="3" fill="#E31837"/>
-  <!-- COSTCO — tight, heavy, condensed like the real brand -->
-  <text x="320" y="72" text-anchor="middle" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="72" fill="#E31837" letter-spacing="6" textLength="480" lengthAdjust="spacing">COSTCO</text>
-  <!-- Blue bar under COSTCO -->
-  <rect x="80" y="82" width="480" height="3.5" rx="1.75" fill="#005DAA"/>
-  <!-- WHOLESALE — small caps subtitle like the brand -->
-  <text x="242" y="100" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="600" font-size="13" fill="#005DAA" letter-spacing="5.5">WHOLESALE</text>
-  <!-- Dot separator -->
-  <circle cx="332" cy="96" r="2.2" fill="#E31837"/>
+  <!-- COSTCO -->
+  <text x="320" y="72" text-anchor="middle" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="72" fill="#E31837" letter-spacing="2">COSTCO</text>
+  <!-- Blue bar -->
+  <rect x="100" y="82" width="440" height="3" rx="1.5" fill="#005DAA"/>
+  <!-- WHOLESALE -->
+  <text x="240" y="102" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="600" font-size="14" fill="#005DAA" letter-spacing="3">WHOLESALE</text>
   <!-- RECEIPTS -->
-  <text x="360" y="100" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="600" font-size="13" fill="#005DAA" letter-spacing="5.5">RECEIPTS</text>
-  <!-- Bottom accent line -->
+  <text x="400" y="102" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="600" font-size="14" fill="#005DAA" letter-spacing="3">RECEIPTS</text>
+  <!-- Bottom blue bar -->
   <rect x="0" y="127" width="640" height="3" fill="#005DAA"/>
 </svg>
