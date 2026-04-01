@@ -1,18 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 130">
   <defs>
-    <linearGradient id="stripe" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#005DAA"/>
-      <stop offset="100%" stop-color="#003f73"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a0e14"/>
     </linearGradient>
   </defs>
   <!-- Background -->
-  <rect width="600" height="120" rx="8" fill="#0d1117"/>
-  <!-- Red stripe accent -->
-  <rect x="0" y="0" width="600" height="4" rx="0" fill="#E31837"/>
-  <!-- COSTCO text -->
-  <text x="300" y="62" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="56" fill="#E31837" letter-spacing="8">COSTCO</text>
-  <!-- Blue divider -->
-  <rect x="120" y="74" width="360" height="3" rx="1.5" fill="#005DAA"/>
-  <!-- RECEIPTS text -->
-  <text x="300" y="104" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="30" fill="#005DAA" letter-spacing="12">RECEIPTS</text>
+  <rect width="640" height="130" rx="10" fill="url(#bg)"/>
+  <!-- Top red bar -->
+  <rect x="0" y="0" width="640" height="3" fill="#E31837"/>
+  <!-- COSTCO — tight, heavy, condensed like the real brand -->
+  <text x="320" y="72" text-anchor="middle" font-family="Impact,'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="72" fill="#E31837" letter-spacing="6" textLength="480" lengthAdjust="spacing">COSTCO</text>
+  <!-- Blue bar under COSTCO -->
+  <rect x="80" y="82" width="480" height="3.5" rx="1.75" fill="#005DAA"/>
+  <!-- WHOLESALE — small caps subtitle like the brand -->
+  <text x="242" y="100" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="600" font-size="13" fill="#005DAA" letter-spacing="5.5">WHOLESALE</text>
+  <!-- Dot separator -->
+  <circle cx="332" cy="96" r="2.2" fill="#E31837"/>
+  <!-- RECEIPTS -->
+  <text x="360" y="100" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="600" font-size="13" fill="#005DAA" letter-spacing="5.5">RECEIPTS</text>
+  <!-- Bottom accent line -->
+  <rect x="0" y="127" width="640" height="3" fill="#005DAA"/>
 </svg>
