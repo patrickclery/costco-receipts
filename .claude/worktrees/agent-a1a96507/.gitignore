@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.env
+costco-receipts.json
+.costco-checkpoint.json
